@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ml5@0.7.0/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Google net vs mobile net</title>
+</head>
+<body>
+    <center>
+        <h1>
+            Case Study Between Mobile Net And Google Lens
+       <br>
+       <br>
+       <div class="horizontal_underline"></div>
+       <br>
+        <img width="500" height="200"src="logo.jpeg">
+        <br>
+        <label>vs</label>
+        <br>
+        
+        <img width="470" height="150"src="Screenshot 2024-03-06 205140.png">
+        <br>
+        <Br>
+            
+        <button onclick="know()" class="btn btn-success">Know about these</button>
+    </h1>
+    <br>
+    <br>
+    <ol>
+        <div class="test_img_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image:</b>
+                <img src="phone.png" class="img_responsive item">
+                <label>Item name:A galaxy Z flip 3</label>
+                <div class="vertical_underline"></div>
+                <h5 class="col-sm-4 col-xs-12 CHECK" id="google_lens">
+                    Output on GOOGLE LENS-
+                    <br>
+                    <br>
+                    <span style="background-color: rgb(114, 248, 114);">galaxy Z flip 3</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12 CHECK" id="mobile_net">
+                    Output on MOBILE NET-
+                    <br>
+                    <br>
+                    <span style="background-color: red;">television</span>
+                </h5>
+                <br>
+ 
+
+            </li>
+            <br>
+            <br>
+            
+        </div>
+        <br>
+        <br>
+
+
+
+        <div class="test_img_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image:</b>
+                <img src="500 ruppees note indian.png" class="img_responsive item">
+                <label>Item name: rupees 500 note of indian currency</label>
+                <div class="vertical_underline"></div>
+                <h5 class="col-sm-4 col-xs-12 CHECK" id="google_lens">
+                    Output on GOOGLE LENS-
+                    <br>
+                    <br>
+                    <span style="background-color: rgb(114, 248, 114);">currency of India</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12 CHECK" id="mobile_net">
+                    Output on MOBILE NET-
+                    <br>
+                    <br>
+                    <span style="background-color: red;">cellular phone</span>
+                </h5>
+
+            </li>
+            <br>
+            <br>
+            
+        </div>
+        <br>
+        <br>
+        <div class="test_img_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image:</b>
+                <img src="pen.png" class="img_responsive item">
+                <label>Item name:blue gel pen</label>
+                <div class="vertical_underline"></div>
+                <h5 class="col-sm-4 col-xs-12 CHECK" id="google_lens">
+                    Output on GOOGLE LENS-
+                    <br>
+                    <br>
+                    <span style="background-color: rgb(114, 248, 114);">Uniball blue gel pen</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12 CHECK" id="mobile_net">
+                    Output on MOBILE NET-
+                    <br>
+                    <br>
+                    <span style="background-color: rgb(114, 248, 114);">Pen</span>
+                </h5>
+
+            </li>
+            
+            
+        </div>
+
+
+        <div class="test_img_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image:</b>
+                <img src="watch.png" id="watch" class="img_responsive item">
+                <label>Item name:smart watch</label>
+                <div class="vertical_underline"></div>
+                <h5 class="col-sm-4 col-xs-12 CHECK" id="google_lens">
+                    Output on GOOGLE LENS-
+                    <br>
+                    <br>
+                    <span style="background-color: rgb(114, 248, 114);">Smartwatch</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12 CHECK" id="mobile_net">
+                    Output on MOBILE NET-
+                    <br>
+                    <br>
+                    <span style="background-color: red;">microphone</span>
+                </h5>
+
+            </li>
+            
+            
+        </div>
+
+<br>
+<br>
+</ol>
+<br>
+<br>
+<br>
+    <div id="conclusion">
+        <h2 >I tested 5 items and <span style="color:red">Google Lens was more accurate </span>for all the 5 things.From this,we conclude that google lens is more accurate compared to Mobile net</h2>
+    </div>
+
+   
+    </center>
+</body>
+<script src="main.js"></script>
+</html>
